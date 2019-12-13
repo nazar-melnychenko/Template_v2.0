@@ -45,8 +45,7 @@ const config = {
 	server: {
 		baseDir: 		'./app'
 	},
-	tunnel: true,
-	port: 8080
+	tunnel: false
 };
 
 function libsStyles(){
