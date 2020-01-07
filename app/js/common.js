@@ -1,5 +1,6 @@
-$(function() {
-	$('h1').on('click', function(event) {
-		$(this).toggleClass("active");
-	});
-});
+window.onload = function () {
+	var header = document.querySelector('.centerq h1');
+	header.onclick = function () {
+		this.classList.toggle('active');
+	}
+};
